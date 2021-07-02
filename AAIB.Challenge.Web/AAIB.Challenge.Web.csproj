@@ -2,15 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>42391df5-07bc-4bd1-87d9-3bcdc2ccb0c0</UserSecretsId>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Remove="Data\reports.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Data\reports.json" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />

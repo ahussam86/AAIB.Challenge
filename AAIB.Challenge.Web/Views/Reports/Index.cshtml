@@ -18,16 +18,19 @@
     {
         <div class="ticket-item" data-id="@item.ReportId" style="border:1px solid">
             <table class="table-borderless spam-table" width="100%" style="">
-                <tr >
+                <tr>
                     <td class="text-left"><label>Id: <span><strong>@item.ReportId</strong></span></label></td>
                     <td class="text-left"><label>Type: <span><strong>@item.ReportType</strong></span></label></td>
                     <td><button id="btnBlockReport" class="block-button" data-id="@item.ReportId"> Block </button></td>
                 </tr>
-                <tr >
+                <tr>
                     <td class="text-left"><label>State: <span><strong>@item.State</strong></span></label></td>
                     <td class="text-left"><label>Message: <span><strong>@item.Message</strong></span></label></td>
                     <td><button id="btnResolveReport" class="resolve-button" data-id="@item.ReportId"> Resolve </button></td>
                 </tr>
+                <tr>
+                    <td colspan="3" class="text-left"><a href="#">Details</a></td>
+                    </tr>
             </table>
         </div>
     }
