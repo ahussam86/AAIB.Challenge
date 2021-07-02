@@ -16,17 +16,17 @@
     <h1 class="display-4">Reports</h1>
     @foreach (var item in Model.Tickets)
     {
-        <div class="ticket-item" data-id="@item.ReportId" style="border:1px solid">
-            <table class="table-borderless spam-table" width="100%" style="">
+        <div class="ticket-item" data-id="@item.ReportId" >
+            <table class="table-borderless spam-table">
                 <tr>
                     <td class="text-left"><label>Id: <span><strong>@item.ReportId</strong></span></label></td>
                     <td class="text-left"><label>Type: <span><strong>@item.ReportType</strong></span></label></td>
-                    <td><button id="btnBlockReport" class="block-button" data-id="@item.ReportId"> Block </button></td>
+                    <td><button id="btnBlockReport" class="block-button btn btn-danger btn-block" data-id="@item.ReportId"> Block </button></td>
                 </tr>
                 <tr>
                     <td class="text-left"><label>State: <span><strong>@item.State</strong></span></label></td>
                     <td class="text-left"><label>Message: <span><strong>@item.Message</strong></span></label></td>
-                    <td><button id="btnResolveReport" class="resolve-button" data-id="@item.ReportId"> Resolve </button></td>
+                    <td><button id="btnResolveReport" class="resolve-button  btn btn-success btn-block" data-id="@item.ReportId"> Resolve </button></td>
                 </tr>
                 <tr>
                     <td colspan="3" class="text-left"><a href="#">Details</a></td>
