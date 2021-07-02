@@ -1,1 +1,15 @@
-AAIB.Challenge
+Thank you for inviting me for the coding test, here is my progress in points:
+-   I used ASP.NET Core 3.1 MVC and C# to implement the task.
+-   I Deployed it to Azure App Service, here is a working link:
+	-   [https://aaib-challenge-ahussam.azurewebsites.net/reports](https://aaib-challenge-ahussam.azurewebsites.net/reports)  
+-   I also added the source code to GitHub and linked it with the Azure App Service for Continuous Delivery (Azure App Service will be monitoring the master and will automatically deploy any changes to it), here is the link:
+	- [https://github.com/ahussam86/AAIB.Challenge](https://github.com/ahussam86/AAIB.Challenge)  
+-   I used the reports.json file as the data source and loaded it at App Start.
+-   I used caching to cache the report tickets data, but when the cache expires, it will reload the data from the data source (the json file).
+-   I warmed up the cache at the app startup.
+-   I extracted only the data fields that are intended to show on the listing page and also used the **reportId** instead of the **Id** field in the file, as according to the specs, the resolve request should include the **reportId** and not the ticketed (check the attached screenshot)
+-   I Implemented the Block Button as follows:
+	-   When a user clicks on the block button, it fires a put request (structured as specified in the document) to the backend and disables the button if the request was successful (the request returns a simple boolean)
+	-   Not sure if that is what is required here, or more work needs to be done on the backend to update a database for example (it wasn't explicitly mentioned in the task, so I didn't go further into that)
+-   I implemented the Resolve Button as follows:
+-   When a user clicks on the resolve button, it fires a put request (structured as specified in the document) to the backend and removes the whole report item from the UI if the request was successful (I noticed that the **reportId** was duplicated in multiple tickets, that's why when resolving you will find multiple items removed together, Is that correct behavior according to your user story?)
