@@ -1,5 +1,3 @@
-using System;
-
 namespace AAIB.Challenge.Web.Models
 {
     public class ErrorViewModel

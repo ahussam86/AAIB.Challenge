@@ -3,8 +3,6 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace AAIB.Challenge.Web.AppServices
 {
@@ -38,7 +36,7 @@ namespace AAIB.Challenge.Web.AppServices
 
         private Ticket CreateTicket(dynamic dynReport)
         {
-            Ticket ticket=new Ticket();
+            var ticket=new Ticket();
             ticket.Id = FormatValue(dynReport?.id?.ToString());
             ticket.State = FormatValue(dynReport?.state?.ToString());
             var dynPayload = JsonConvert.DeserializeObject(dynReport?.payload?.ToString());

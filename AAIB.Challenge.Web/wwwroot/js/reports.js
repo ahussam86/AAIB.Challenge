@@ -9,7 +9,6 @@
         success: function (data) {
             console.log(data);
             disableBlockButton(id);
-
         }
     });
 }
@@ -18,7 +17,6 @@ function resolveHandler(e) {
     e.preventDefault();
     var id = $(this).data('id');
     console.log("RESOLVED: " + id);
-
     $.ajax({
         type: "PUT",
         url: "reports/" + id,
@@ -26,16 +24,14 @@ function resolveHandler(e) {
         success: function (data) {
             console.log(data);
             removeTicket(id);
-
         }
     });
 }
 
 function disableBlockButton(id) {
-
     $(".block-button[data-id='" + id + "']").prop('disabled', true);
 }
 
 function removeTicket(id) {
-    $(".ticket-item[data-id='" + id + "']").fadeOut(700, function () { $(this).remove(); });
+    $(".ticket-item[data-id='" + id + "']").fadeOut(500, function () { $(this).remove(); });
 }

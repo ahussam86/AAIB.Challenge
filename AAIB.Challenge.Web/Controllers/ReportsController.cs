@@ -1,15 +1,6 @@
 ﻿using AAIB.Challenge.Web.AppServices;
 using AAIB.Challenge.Web.Models;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace AAIB.Challenge.Web.Controllers
 {
