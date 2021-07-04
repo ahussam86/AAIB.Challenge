@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using AAIB.Challenge.Domain;
+using System.Collections.Generic;
 
 namespace AAIB.Challenge.Web.Models
 {

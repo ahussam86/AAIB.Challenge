@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAIB.Challenge.Web", "AAIB.Challenge.Web\AAIB.Challenge.Web.csproj", "{050B137A-2A54-4821-B7A6-EE3F7CFCEB56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAIB.Challenge.Web", "AAIB.Challenge.Web\AAIB.Challenge.Web.csproj", "{050B137A-2A54-4821-B7A6-EE3F7CFCEB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAIB.Challenge.Domain", "AAIB.Challenge.Domain\AAIB.Challenge.Domain.csproj", "{50594899-0244-45BF-8B61-E38316E16FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAIB.Challenge.Application", "AAIB.Challenge.Application\AAIB.Challenge.Application.csproj", "{6288F2D4-CF83-46B9-8A63-132057B1932A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{050B137A-2A54-4821-B7A6-EE3F7CFCEB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{050B137A-2A54-4821-B7A6-EE3F7CFCEB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{050B137A-2A54-4821-B7A6-EE3F7CFCEB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50594899-0244-45BF-8B61-E38316E16FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50594899-0244-45BF-8B61-E38316E16FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50594899-0244-45BF-8B61-E38316E16FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50594899-0244-45BF-8B61-E38316E16FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6288F2D4-CF83-46B9-8A63-132057B1932A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6288F2D4-CF83-46B9-8A63-132057B1932A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6288F2D4-CF83-46B9-8A63-132057B1932A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6288F2D4-CF83-46B9-8A63-132057B1932A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

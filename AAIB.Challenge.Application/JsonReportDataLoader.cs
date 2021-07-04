@@ -1,10 +1,11 @@
-﻿using AAIB.Challenge.Web.Models;
+﻿
+using AAIB.Challenge.Domain;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace AAIB.Challenge.Web.AppServices
+namespace AAIB.Challenge.Application
 {
     public class JsonReportDataLoader : IReportDataLoader
     {

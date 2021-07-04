@@ -1,4 +1,4 @@
-﻿using AAIB.Challenge.Web.Models;
+﻿using AAIB.Challenge.Domain;
 using System.Collections.Generic;
 
 namespace AAIB.Challenge.Web.AppServices

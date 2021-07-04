@@ -1,3 +1,4 @@
+using AAIB.Challenge.Application;
 using AAIB.Challenge.Web.AppServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

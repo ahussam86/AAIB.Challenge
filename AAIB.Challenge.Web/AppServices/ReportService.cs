@@ -1,4 +1,6 @@
-﻿using AAIB.Challenge.Web.Models;
+﻿
+using AAIB.Challenge.Application;
+using AAIB.Challenge.Domain;
 using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Generic;
 
@@ -32,11 +34,17 @@ namespace AAIB.Challenge.Web.AppServices
 
         public bool BlockReport(string reportId)
         {
+            /*
+             * Not sure where to go from here based on the requirements provided
+             */
             return true;
         }
 
         public bool ResolveReport(string reportId)
         {
+            /*
+             * Not sure where to go from here based on the requirements provided
+             */
             return true;
         }
     }

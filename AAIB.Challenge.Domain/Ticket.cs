@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AAIB.Challenge.Web.Models
+namespace AAIB.Challenge.Domain
 {
     [Serializable]
     public class Ticket
